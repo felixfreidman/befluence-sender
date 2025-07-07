@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import globalReducer from "../features/Global/GlobalSlice";
+import emailReducer from "../features/Email/EmailSlice";
 
 export const store = configureStore({
 	reducer: {
-		global: globalReducer,
+		email: emailReducer,
 	},
 });
 

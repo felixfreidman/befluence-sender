@@ -1,9 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-export interface Title {
-	value: string;
-}
-
 interface GlobalTitle {
 	title: string;
 }

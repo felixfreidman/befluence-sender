@@ -9,6 +9,7 @@ import { getSavedEmail, saveEmail } from "../../features/Email/EmailSlice";
 
 // TODO:
 // Придумать, как вытаскивать данные из глобального стейта, а не через локальное хранилище
+// Хранить письмо с привязкой к профилю
 
 export default function EmailCreator() {
 	const appState = localStorage.getItem("appState");
